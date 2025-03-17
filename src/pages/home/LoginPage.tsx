@@ -23,17 +23,19 @@ const LoginPage: React.FC<LoginPageProps> = ({ navigation }) => {
       <TextInput
         style={styles.input}
         placeholder="E-mail"
+        placeholderTextColor="#888"
         value={email}
         onChangeText={setEmail}
       />
       <TextInput
         style={styles.input}
         placeholder="Senha"
+        placeholderTextColor="#888"
         secureTextEntry
         value={password}
         onChangeText={setPassword}
       />
-      <Button title="Entrar" onPress={handleLogin} />
+      <Button title="Entrar" onPress={handleLogin} color="#34CB79" />
       <Text style={styles.link} onPress={() => Alert.alert('Aviso', 'Função de recuperação de senha ainda não implementada.')}>
         Esqueceu sua senha?
       </Text>
@@ -47,23 +49,29 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
-    backgroundColor: '#fff',
+    backgroundColor: '#f9f9f9', // Cor de fundo suave
   },
   title: {
-    fontSize: 24,
-    marginBottom: 20,
+    fontSize: 28,
+    fontWeight: 'bold',
+    marginBottom: 30,
+    color: '#34CB79', // Cor vibrante para o título
   },
   input: {
     width: '100%',
-    padding: 10,
-    marginVertical: 10,
+    padding: 15,
+    marginVertical: 12,
     borderWidth: 1,
-    borderRadius: 5,
+    borderRadius: 8,
     borderColor: '#ddd',
+    backgroundColor: '#fff',
+    fontSize: 16,
   },
   link: {
-    marginTop: 15,
-    color: 'blue',
+    marginTop: 20,
+    color: '#34CB79', // Cor para o link
+    textDecorationLine: 'underline',
+    fontSize: 14,
   },
 });
 
