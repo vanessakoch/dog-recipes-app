@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
     item: {
         backgroundColor: '#ffffff',
         borderWidth: 2,
-        borderColor: '#ff6347', // Cor vibrante para os cards
+        borderColor: '#ff6347',
         height: 150,
         width: 150,
         borderRadius: 12,
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         textAlign: 'center',
-        elevation: 4, // Adiciona sombra para dar profundidade
+        elevation: 4,
     },
 
     selectedItem: {
@@ -97,14 +97,14 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontSize: 14,
         fontWeight: 'bold',
-        color: '#ff6347', // Cor do título mais chamativa
+        color: '#ff6347',
         marginTop: 10,
     },
 
     cardImage: {
         width: 70,
         height: 70,
-        borderRadius: 35, // Imagem redonda para um visual mais moderno
+        borderRadius: 35,
         marginBottom: 10,
     },
 });

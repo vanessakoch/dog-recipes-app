@@ -24,21 +24,21 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#ffecb3', // Cor de fundo mais clara e vibrante
+    backgroundColor: '#ffecb3',
     padding: 20,
   },
   image: {
     width: 150,
     height: 150,
     marginBottom: 30,
-    borderRadius: 75, // Deixa a imagem redonda
+    borderRadius: 75,
     borderWidth: 5,
-    borderColor: '#ff8c00', // Cor para destacar a borda
+    borderColor: '#ff8c00',
   },
   title: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#ff6347', // Cor vibrante para o título
+    color: '#ff6347',
     marginBottom: 10,
     textAlign: 'center',
   },
@@ -49,11 +49,11 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   button: {
-    backgroundColor: '#ff8c00', // Cor chamativa para o botão
+    backgroundColor: '#ff8c00',
     paddingVertical: 15,
     paddingHorizontal: 30,
     borderRadius: 10,
-    elevation: 5, // Efeito de sombra para dar profundidade
+    elevation: 5,
   },
   buttonText: {
     color: '#fff',
